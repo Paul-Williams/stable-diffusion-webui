@@ -3,6 +3,8 @@
 set PYTHON=
 set GIT=
 set VENV_DIR=
-set COMMANDLINE_ARGS=
+REM set COMMANDLINE_ARGS=--lowvram --precision full --no-half --skip-torch-cuda-test
+REM set COMMANDLINE_ARGS=--skip-torch-cuda-test --no-half --use-cpu all --xformers --api
+set COMMANDLINE_ARGS=--skip-torch-cuda-test --no-half --use-cpu all
 
 call webui.bat
